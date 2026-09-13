@@ -1,0 +1,41 @@
+ID_Pedido,Data_Pedido,Nome_Produto,Quantidade_Venda,Preco_Unitario,Cidade,Estado,Regiao
+100,2026-01-01 12:00:00,Cadeira Gamer,80,900.0,Manaus,AM,Norte
+101,2026-01-01 17:00:00,Teclado Mecânico,134,300.0,Belém,PA,Norte
+102,2026-01-01 04:00:00,Cadeira Gamer,80,900.0,Belém,PA,Norte
+103,2026-01-01 20:00:00,Placa de Vídeo,40,2000.0,Manaus,AM,Norte
+104,2026-01-01 07:00:00,Smartphone,87,2500.0,Curitiba,PR,Sul
+105,2026-01-02 05:00:00,Cadeira Gamer,80,900.0,Rio de Janeiro,RJ,Sudeste
+106,2026-01-02 07:00:00,Cadeira Gamer,62,900.0,Salvador,BA,Nordeste
+107,2026-01-02 22:00:00,Smartphone,100,2500.0,Manaus,AM,Norte
+108,2026-01-02 22:00:00,Mouse Gamer,91,189.27,Belém,PA,Norte
+109,2026-01-02 15:00:00,Laptop Gamer,50,3500.0,Curitiba,PR,Sul
+110,2026-01-03 14:00:00,Tablet,75,1500.0,Salvador,BA,Nordeste
+111,2026-01-03 19:00:00,Monitor,60,800.0,Salvador,BA,Nordeste
+112,2026-01-03 00:00:00,Teclado Mecânico,24,300.0,Belém,PA,Norte
+113,2026-01-03 09:00:00,Teclado Mecânico,103,300.0,São Paulo,SP,Sudeste
+114,2026-01-03 12:00:00,Tablet,75,1500.0,Belo Horizonte,MG,Sudeste
+115,2026-01-04 23:00:00,Headset Gamer,120,400.0,Belém,PA,Norte
+116,2026-01-04 05:00:00,Teclado Mecânico,150,300.0,Rio de Janeiro,RJ,Sudeste
+117,2026-01-04 12:00:00,Monitor,54,800.0,Fortaleza,CE,Nordeste
+118,2026-01-04 10:00:00,Smartphone,100,2500.0,Belém,PA,Norte
+119,2026-01-04 02:00:00,Laptop Gamer,50,3500.0,Belém,PA,Norte
+120,2026-01-05 23:00:00,Tablet,73,1500.0,São Paulo,SP,Sudeste
+121,2026-01-05 02:00:00,Teclado Mecânico,13,300.0,São Paulo,SP,Sudeste
+122,2026-01-05 02:00:00,Mouse Gamer,117,191.15,Belém,PA,Norte
+123,2026-01-05 16:00:00,SSD 1TB,90,600.0,Salvador,BA,Nordeste
+124,2026-01-05 09:00:00,SSD 1TB,63,600.0,Manaus,AM,Norte
+125,2026-01-06 04:00:00,Monitor,60,800.0,Recife,PE,Nordeste
+126,2026-01-06 16:00:00,SSD 1TB,90,600.0,Fortaleza,CE,Nordeste
+127,2026-01-06 00:00:00,Mouse Gamer,50,195.84,Recife,PE,Nordeste
+128,2026-01-06 06:00:00,SSD 1TB,14,600.0,Curitiba,PR,Sul
+129,2026-01-06 13:00:00,Placa de Vídeo,19,2000.0,Salvador,BA,Nordeste
+130,2026-01-07 01:00:00,Headset Gamer,79,400.0,Belo Horizonte,MG,Sudeste
+131,2026-01-07 03:00:00,Placa de Vídeo,40,2000.0,Fortaleza,CE,Nordeste
+132,2026-01-07 07:00:00,Placa de Vídeo,10,2000.0,São Paulo,SP,Sudeste
+133,2026-01-07 15:00:00,Placa de Vídeo,40,2000.0,Salvador,BA,Nordeste
+134,2026-01-07 16:00:00,SSD 1TB,90,600.0,São Paulo,SP,Sudeste
+135,2026-01-08 22:00:00,Tablet,72,1500.0,Rio de Janeiro,RJ,Sudeste
+136,2026-01-08 06:00:00,Placa de Vídeo,40,2000.0,Belém,PA,Norte
+137,2026-01-08 08:00:00,Cadeira Gamer,80,900.0,Manaus,AM,Norte
+138,2026-01-08 09:00:00,Headset Gamer,120,400.0,Belém,PA,Norte
+139,2026-01-08 22:00:00,Monitor,40,800.0,Fortaleza,CE,Nordeste

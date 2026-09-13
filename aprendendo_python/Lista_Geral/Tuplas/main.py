@@ -10,4 +10,3 @@ print("Coordenadas: \nX: ", coordenadas[0], "\nY: ", coordenadas[1])  # Saída: 
 
 dias_semana = ("Segunda", "Terça", "Quarta", "Quinta", "Sexta")
 print("Dias da semana e números: ", dias_semana)  # Saída: ('Segunda', 'Terça', 'Quarta', 'Quinta', 'Sexta')
-
