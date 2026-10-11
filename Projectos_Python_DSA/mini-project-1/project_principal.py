@@ -45,3 +45,64 @@ df_vendas['status_Entrega'] = df_vendas['Estado'].apply(lambda estado: 'Rapido' 
 
 print(df_vendas.info())
 print(df_vendas)
+
+# ANALISE 1: TOP 10 DOS PRODUTOS MAIS VENDIDOS
+# Agrupar os dados por 'Nome_Produto' e somar a quantidade vendida
+top_produtos = df_vendas.groupby('Nome_Produto')['Quantidade_Venda'].sum().sort_values(ascending=False).head(10)
+print("===== Top 10 Produtos Mais Vendidos =====")
+print(top_produtos)
+
+# ANALISE 2: FATURAMENTO TOTAL POR PRODUTO
+# Agrupar os dados por 'Nome_Produto' e somar o faturamento total
+faturamento_produto = df_vendas.groupby('Nome_Produto')['Faturamento'].sum().sort_values(ascending=False)
+print("===== Faturamento Total Por Produto =====")
+print(faturamento_produto)
+
+total_faturamento = faturamento_produto.sum()
+print(f"Faturamento Total: R$ {total_faturamento:.2f}")
+
+# Definir um estilo para os gráficos
+# Definir um estilo para os gráficos
+sns.set_style("whitegrid")
+
+
+# ==============================
+# GRÁFICO 1 - TOP 10 PRODUTOS
+# ==============================
+
+plt.figure(figsize=(10, 5))
+
+top_produtos.sort_values(ascending=True).plot(
+    kind='bar',
+    color='skyblue'
+)
+
+plt.title('Top 10 Produtos Mais Vendidos', fontsize=16)
+plt.ylabel('Quantidade Vendida', fontsize=14)
+plt.xlabel('Nome do Produto', fontsize=14)
+
+plt.xticks(rotation=45, ha='right')
+plt.tight_layout()
+plt.show()
+
+
+# ==============================
+# GRÁFICO 2 - FATURAMENTO POR PRODUTO
+# ==============================
+
+plt.figure(figsize=(10, 5))
+
+faturamento_produto.sort_values(ascending=True).plot(
+    kind='bar',
+    color='lightgreen'
+)
+
+plt.title('Faturamento Total por Produto', fontsize=16)
+plt.ylabel('Faturamento (R$)', fontsize=14)
+plt.xlabel('Nome do Produto', fontsize=14)
+
+plt.xticks(rotation=45, ha='right')
+plt.tight_layout()
+plt.show()
+
+
